@@ -8,8 +8,10 @@ const headers = {
 export const $authHost = axios.create({
     withCredentials: true,
     headers
-})
+})//tokeni hamar e
 
 export const $host = axios.create({
     headers
 })
+
+// axios instans
